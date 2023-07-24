@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    padding: 20px;
+}
+.container-img{
+    width: 50vw;
+}
+.container-title{
+    width: 50vw;
+}
+.icon-svg{
+    /* display: block; */
+    padding: 0;
+    margin: 0;
+    width: 35px;
+}
