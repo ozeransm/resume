@@ -1,15 +1,50 @@
+@font-face {
+    font-family: 'EduSABeginner-VariableFont_wght';
+    src: url('./font/EduSABeginner-VariableFont_wght.ttf');
+       
+}
+a{
+    color: grey;
+
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+h1{
+    font-family: 'EduSABeginner-VariableFont_wght';
+    font-size: 48px;
+    font-weight: 800;
+}
+h2{
+    font-family: 'EduSABeginner-VariableFont_wght';
+    font-size: 36px;
+    font-weight: 500;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
 .container {
   display: flex;
+  gap: 40px;
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
 }
 .container-img {
-  width: 50vw;
+  padding: 40px;
+}
+.container-img li{
+    color: grey;
+    
 }
 .container-title {
-  width: 50vw;
+  padding: 20px;
+  background-color: lightgrey;
+  border-radius: 10px;
 }
 .icon-svg {
-  /* display: block; */
   padding: 0;
   margin: 5px;
   width: 30px;
