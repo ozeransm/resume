@@ -7,6 +7,9 @@ a{
     color: grey;
 
 }
+img{
+  display: block;
+}
 body{
     font-family: 'IBM Plex Sans', sans-serif;
     
@@ -57,4 +60,8 @@ p{
 .contactme-item {
   display: flex;
   align-items: center;
+}
+.img-container{
+  border-radius: 50%;
+  overflow: hidden;
 }
