@@ -65,3 +65,9 @@ p{
   border-radius: 50%;
   overflow: hidden;
 }
+.link-project{
+  font-family: EduSABeginner-VariableFont_wght;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
