@@ -55,6 +55,7 @@ p{
 }
 .contactme-list {
   margin: 0;
+  padding-left: 22px;
   list-style: none;
 }
 .contactme-item {
