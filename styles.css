@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
     font-family: 'EduSABeginner-VariableFont_wght';
     src: url('./font/Roboto-Medium.ttf');
        
-}
+} */
 a{
     color: grey;
 
@@ -15,12 +15,12 @@ body{
     
 }
 h1{
-    font-family: 'EduSABeginner-VariableFont_wght';
+    /* font-family: 'EduSABeginner-VariableFont_wght'; */
     font-size: 48px;
     font-weight: 800;
 }
 h2{
-    font-family: 'EduSABeginner-VariableFont_wght';
+    /* font-family: 'EduSABeginner-VariableFont_wght'; */
     font-size: 36px;
     font-weight: 500;
 }
@@ -39,8 +39,10 @@ p{
   padding: 40px;
 }
 .container-img li{
-    color: grey;
-    
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;  
+      
 }
 .container-title {
   padding: 20px;
@@ -67,8 +69,13 @@ p{
   overflow: hidden;
 }
 .link-project{
-  font-family: EduSABeginner-VariableFont_wght;
+  /* font-family: EduSABeginner-VariableFont_wght; */
   font-size: 20px;
   font-weight: 500;
   color: black;
+}
+.link-git{
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
 }
