@@ -72,6 +72,12 @@ p{
   color: grey;
 }
 
+.consent-title{
+  font-size: 10px;
+  font-weight: 200;
+  color: grey;
+}
+
 @media (min-width: 768px) {
   .container {
     display: flex;
